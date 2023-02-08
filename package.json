@@ -1,0 +1,44 @@
+{
+  "name": "generator-word-snatchers-cli-plugin",
+  "description": "Scaffold out a word-snatcher-cli plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "yeomangenerator",
+    "generator",
+    "wordsnatcherscli",
+    "word-snatchers",
+    "word-snatchers-cli",
+    "scaffold",
+    "boilerplate",
+    "template",
+    "node",
+    "plugin",
+    "words-game"
+  ],
+  "scripts": {
+    "prettify": "prettier --write .",
+    "setup": "node -r esm scripts/pch.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "underscore.string": "^3.3.6",
+    "yeoman-generator": "^5.7.0"
+  },
+  "devDependencies": {
+    "@ngneat/falso": "^6.4.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.5",
+    "jest": "^29.4.1",
+    "mem-fs": "^2.2.1",
+    "mem-fs-editor": "^9.6.0",
+    "post-command-hook": "^2.0.2",
+    "post-command-hook-install-packages-plugin": "^1.0.1",
+    "prettier": "^2.8.3",
+    "yeoman-assert": "^3.1.1"
+  }
+}
